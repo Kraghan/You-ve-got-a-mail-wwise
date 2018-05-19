@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F20B52D7-B5DC-4A4D-BCCE-252D078AF3FF}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F20B52D7-B5DC-4A4D-BCCE-252D078AF3FF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="YGM_SoundBank" ID="{0AD2B58A-913E-4199-A600-84745AABDC8D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Pnj2_Marche" ID="{7DD93CDF-0EAC-4324-BC43-D7D811DA4AA6}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Mailboxe_Validation" ID="{9230C0FF-EEB6-4429-95DB-26DB790C800E}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Impacte_Lettre" ID="{EFF9E78E-7102-44A6-9D9C-83F61757EB99}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Impacte_Colis" ID="{03657952-C863-48B5-B20B-7BE77FEF6EF4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pnj1_Marche" ID="{7E0C7DDA-C5B2-4CDC-AB51-F0BC2DA3FD5B}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Impacte_Journal" ID="{A6B2B1E6-5505-4F21-A7BD-13196C2305D1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

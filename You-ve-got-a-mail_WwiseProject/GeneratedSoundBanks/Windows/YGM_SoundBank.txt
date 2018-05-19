@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	57770325	Pnj1_Marche			\Default Work Unit\Pnj1_Marche	
+	350483411	Impacte_Colis			\Default Work Unit\Impacte_Colis	
+	2099687066	Mailboxe_Validation			\Default Work Unit\Mailboxe_Validation	
+	2326840496	Impacte_Journal			\Default Work Unit\Impacte_Journal	
+	2557691788	Pnj2_Marche			\Default Work Unit\Pnj2_Marche	
+	2570357845	Impacte_Lettre			\Default Work Unit\Impacte_Lettre	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	78608647	YGM-validationMailboxe	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-validationMailbox_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\feedbacks\YGM-validationMailboxe		73340
+	365022121	YGM-ImpacteLettre	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\feedbacks\YGM-ImpacteLettre		19242
+	513139282	YGM-ImpacteJournal	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\feedbacks\YGM-ImpacteJournal		21176
+	893225651	YGM-pnj2Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\YGM-pnj2Walk		49050
+	916069169	YGM-ImpacteColis	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactColis_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\feedbacks\YGM-ImpacteColis		35024
+	992466882	YGM-pnj1Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\YGM-pnj1Walk		30380
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="984664932" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\YGM_SoundBank</ObjectPath>
+			<ShortName>YGM_SoundBank</ShortName>
+			<Path>YGM_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="350483411" Name="Impacte_Colis" ObjectPath="\Events\Default Work Unit\Impacte_Colis"/>
+				<Event Id="2326840496" Name="Impacte_Journal" ObjectPath="\Events\Default Work Unit\Impacte_Journal"/>
+				<Event Id="2570357845" Name="Impacte_Lettre" ObjectPath="\Events\Default Work Unit\Impacte_Lettre"/>
+				<Event Id="2099687066" Name="Mailboxe_Validation" ObjectPath="\Events\Default Work Unit\Mailboxe_Validation"/>
+				<Event Id="57770325" Name="Pnj1_Marche" ObjectPath="\Events\Default Work Unit\Pnj1_Marche"/>
+				<Event Id="2557691788" Name="Pnj2_Marche" ObjectPath="\Events\Default Work Unit\Pnj2_Marche"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="78608647" Language="SFX">
+					<ShortName>feedbacks\YGM-validationMailbox.wav</ShortName>
+					<Path>SFX\feedbacks\YGM-validationMailbox_1C9C67B2.wem</Path>
+				</File>
+				<File Id="365022121" Language="SFX">
+					<ShortName>feedbacks\YGM-impactLettre.wav</ShortName>
+					<Path>SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem</Path>
+				</File>
+				<File Id="513139282" Language="SFX">
+					<ShortName>feedbacks\YGM-impactJournal.wav</ShortName>
+					<Path>SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem</Path>
+				</File>
+				<File Id="893225651" Language="SFX">
+					<ShortName>Environment\YGM-pnj2Walk.wav</ShortName>
+					<Path>SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem</Path>
+				</File>
+				<File Id="916069169" Language="SFX">
+					<ShortName>feedbacks\YGM-impactColis.wav</ShortName>
+					<Path>SFX\feedbacks\YGM-impactColis_1C9C67B2.wem</Path>
+				</File>
+				<File Id="992466882" Language="SFX">
+					<ShortName>Environment\YGM-pnj1Walk.wav</ShortName>
+					<Path>SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

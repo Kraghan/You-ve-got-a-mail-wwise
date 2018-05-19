@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Environment" ID="{894ED8CD-BA0D-4A73-B40B-349C5A8699C2}" ShortID="660393953">
+					<ChildrenList>
+						<Sound Name="YGM-pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" ShortID="252773473">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-pnj1Walk" ID="{6CAC53E0-A940-4D19-B061-963ED91F0DAF}" ShortID="992466882">
+									<Language>SFX</Language>
+									<AudioFile>Environment\YGM-pnj1Walk.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-pnj1Walk" ID="{6CAC53E0-A940-4D19-B061-963ED91F0DAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" ShortID="519600166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-pnj2Walk" ID="{FD048858-7199-44E2-9587-5BB4BDAAD869}" ShortID="893225651">
+									<Language>SFX</Language>
+									<AudioFile>Environment\YGM-pnj2Walk.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-pnj2Walk" ID="{FD048858-7199-44E2-9587-5BB4BDAAD869}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="feedbacks" ID="{272020C0-89F5-475F-95F1-08E77687F4E6}" ShortID="429255398">
+					<ChildrenList>
+						<Sound Name="YGM-ImpacteColis" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" ShortID="713192772">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-impactColis" ID="{AE2778EA-6E7D-469E-9A58-48F040463489}" ShortID="916069169">
+									<Language>SFX</Language>
+									<AudioFile>feedbacks\YGM-impactColis.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-impactColis" ID="{AE2778EA-6E7D-469E-9A58-48F040463489}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-ImpacteJournal" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" ShortID="696618705">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-impactJournal" ID="{3B0CFFC7-71D6-4D55-BDE6-8EAF5FC80A40}" ShortID="513139282">
+									<Language>SFX</Language>
+									<AudioFile>feedbacks\YGM-impactJournal.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-impactJournal" ID="{3B0CFFC7-71D6-4D55-BDE6-8EAF5FC80A40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-ImpacteLettre" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" ShortID="304945467">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-impactLettre" ID="{BF3094B5-9709-4B13-B25B-F7C9F1BB3286}" ShortID="365022121">
+									<Language>SFX</Language>
+									<AudioFile>feedbacks\YGM-impactLettre.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-impactLettre" ID="{BF3094B5-9709-4B13-B25B-F7C9F1BB3286}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-validationMailboxe" ID="{748F2BDA-6776-461E-B00B-1A27E164B542}" ShortID="125305236">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-validationMailbox" ID="{6FF82CF9-6DC1-4861-8D0B-C85717A2627A}" ShortID="78608647">
+									<Language>SFX</Language>
+									<AudioFile>feedbacks\YGM-validationMailbox.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-validationMailbox" ID="{6FF82CF9-6DC1-4861-8D0B-C85717A2627A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Signs" ID="{0BB3DAD0-BEA3-4D3A-8276-D567D03EA99C}" ShortID="192657503"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
