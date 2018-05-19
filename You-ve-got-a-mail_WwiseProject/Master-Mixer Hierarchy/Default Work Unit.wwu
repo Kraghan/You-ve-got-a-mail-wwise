@@ -9,6 +9,31 @@
 							<ObjectRef Name="System" ID="{E60F86E7-9B81-4A53-A55A-386963809B32}" WorkUnitID="{725F3B75-F8B4-4496-844E-0FF75D903D60}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>761327882</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Ambisonic" ID="{9FA33ACE-4CC7-4ECF-BC15-603BA2529C23}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>516</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
