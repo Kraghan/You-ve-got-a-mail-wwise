@@ -1,4 +1,6 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1034652824	Ambisonic			\Default Work Unit\Master Audio Bus\Ambisonic	
+	2857125394	Auro-3D			\Default Work Unit\Master Audio Bus\Auro-3D	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
