@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="YGM_SoundBank" ID="{0AD2B58A-913E-4199-A600-84745AABDC8D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="YGM-MailboxMovement" ID="{8F3836F3-2FFD-4386-BED9-F1C9F09D4E5B}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-PostEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-MailboxOpeningClosing" ID="{D2978A37-3D55-43B4-8D04-C8BF1CC453F9}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-PostLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
