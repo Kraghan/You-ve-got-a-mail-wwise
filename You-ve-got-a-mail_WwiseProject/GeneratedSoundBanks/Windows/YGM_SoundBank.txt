@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	100640021	YGM-PostLoading	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\chargementpoteau_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-PostLoading		661564
+	279637094	YGM-ObjectSpawn	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-ObjectSpawn_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-ObjectSpawn		75034
 	365022121	YGM-LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-LetterImpact		19242
 	474466795	YGM-MailboxOpeningClosing	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-MailboxOpen_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxOpeningClosing		33428
 	483413206	YGM-Sea	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-Sea_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM-Sea		10455008

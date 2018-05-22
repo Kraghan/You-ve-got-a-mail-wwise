@@ -793,12 +793,20 @@
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{591AC023-D426-4D95-95E0-2C2CCF318BC0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -875,19 +883,14 @@
 											<Modifier Name="" ID="{D1B285FD-2FE9-4F0F-BA57-11A73A7A19DC}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="300"/>
-													<Property Name="Min" Type="Real64" Value="-300"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -952,6 +955,90 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="YGM-GunShot" ID="{EB9F504E-C996-4FC1-93AD-C3DAA864A147}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-ObjectSpawn" ID="{A4B25D61-4DFE-4810-A003-ADA00BE74D0A}" ShortID="115471652">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5FD65128-0C4E-48A5-9178-356360D9F371}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{9E99D4A8-C28C-4E62-B950-484857027BEA}" ShortID="114927513">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{5465375B-1D12-4AC8-8D13-A5CC0CDE79B9}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-ObjectSpawn" ID="{E403D6A0-940F-4755-8B8D-DF4DC9249BCB}" ShortID="279637094">
+									<Language>SFX</Language>
+									<AudioFile>YGM-ObjectSpawn.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-ObjectSpawn" ID="{E403D6A0-940F-4755-8B8D-DF4DC9249BCB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1065,6 +1152,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="wheelmediumspeed" ID="{0EF0357E-BF5D-4B67-9266-31516F77F02D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-Wind" ID="{63055929-47A2-469B-8103-A60B9BBA59D4}" ShortID="923972215">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-Wind" ID="{80360AE3-F70C-4314-BD4D-27C32BFB3AFA}" ShortID="592798366">
+									<Language>SFX</Language>
+									<AudioFile>YGM-Wind.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-Wind" ID="{80360AE3-F70C-4314-BD4D-27C32BFB3AFA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -10,6 +10,7 @@
 						<ObjectRef Name="YGM-PostLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-GunShot" ID="{C2E48573-ADEE-4655-B810-85140E624DAD}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-Sea" ID="{B1BF97B3-FD29-47ED-A925-9A3F6EF893F7}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM-ObjectSpawn" ID="{A4B25D61-4DFE-4810-A003-ADA00BE74D0A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-MailboxValidation" ID="{6C8D1BE6-84F1-4833-B2DD-6914E9A4B956}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-LetterImpact" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
