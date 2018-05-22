@@ -35,9 +35,17 @@
 					<ShortName>YGM-MailboxOpen.wav</ShortName>
 					<Path>SFX\YGM-MailboxOpen_1C9C67B2.wem</Path>
 				</File>
+				<File Id="483413206" Language="SFX">
+					<ShortName>YGM-Sea.wav</ShortName>
+					<Path>SFX\YGM-Sea_1C9C67B2.wem</Path>
+				</File>
 				<File Id="513139282" Language="SFX">
 					<ShortName>feedbacks\YGM-impactJournal.wav</ShortName>
 					<Path>SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem</Path>
+				</File>
+				<File Id="717951268" Language="SFX">
+					<ShortName>YGM-GunShot.wav</ShortName>
+					<Path>SFX\YGM-GunShot_1C9C67B2.wem</Path>
 				</File>
 				<File Id="746658345" Language="SFX">
 					<ShortName>YGM-mailboxvalidation.wav</ShortName>
