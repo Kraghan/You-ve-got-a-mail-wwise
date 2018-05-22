@@ -16,6 +16,7 @@
 						<ObjectRef Name="YGM-Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-Pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-PackageImpact" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM-MailboxInhale" ID="{3F57271C-EE5F-4BD1-97FD-A5476C6F0494}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM-NewspaperImpact" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

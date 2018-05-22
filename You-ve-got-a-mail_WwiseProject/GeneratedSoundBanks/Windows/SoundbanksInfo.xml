@@ -23,6 +23,10 @@
 				<Event Id="2557691788" Name="Pnj2_Marche" ObjectPath="\Events\Default Work Unit\Pnj2_Marche" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="83525507" Language="SFX">
+					<ShortName>YGM-MailboxInhale.wav</ShortName>
+					<Path>SFX\YGM-MailboxInhale_1C9C67B2.wem</Path>
+				</File>
 				<File Id="100640021" Language="SFX">
 					<ShortName>chargementpoteau.wav</ShortName>
 					<Path>SFX\chargementpoteau_1C9C67B2.wem</Path>
