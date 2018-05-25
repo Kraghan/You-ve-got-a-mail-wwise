@@ -18,16 +18,26 @@
 			<IncludedEvents>
 				<Event Id="113418973" Name="YGM_Gunshot" ObjectPath="\Events\Default Work Unit\YGM_Gunshot" MaxAttenuation="100.000000"/>
 				<Event Id="3626333799" Name="YGM_LetterImpact" ObjectPath="\Events\Default Work Unit\YGM_LetterImpact" MaxAttenuation="100.000000"/>
+				<Event Id="4140502890" Name="YGM_MailboxOpeningClosing" ObjectPath="\Events\Default Work Unit\YGM_MailboxOpeningClosing" MaxAttenuation="100.000000"/>
 				<Event Id="3713421942" Name="YGM_MailboxValidation" ObjectPath="\Events\Default Work Unit\YGM_MailboxValidation" MaxAttenuation="100.000000"/>
 				<Event Id="3376158800" Name="YGM_NewspaperImpact" ObjectPath="\Events\Default Work Unit\YGM_NewspaperImpact" MaxAttenuation="100.000000"/>
+				<Event Id="2344412261" Name="YGM_ObjectSPawn" ObjectPath="\Events\Default Work Unit\YGM_ObjectSPawn" MaxAttenuation="100.000000"/>
 				<Event Id="3000227129" Name="YGM_PackageImpact" ObjectPath="\Events\Default Work Unit\YGM_PackageImpact" MaxAttenuation="100.000000"/>
 				<Event Id="2818181119" Name="YGM_Pnj1Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj1Walk" MaxAttenuation="100.000000"/>
 				<Event Id="1366380992" Name="YGM_Pnj2Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj2Walk" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="279637094" Language="SFX">
+					<ShortName>YGM-ObjectSpawn.wav</ShortName>
+					<Path>SFX\YGM-ObjectSpawn_1C9C67B2.wem</Path>
+				</File>
 				<File Id="365022121" Language="SFX">
 					<ShortName>feedbacks\YGM-impactLettre.wav</ShortName>
 					<Path>SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem</Path>
+				</File>
+				<File Id="474466795" Language="SFX">
+					<ShortName>YGM-MailboxOpen.wav</ShortName>
+					<Path>SFX\YGM-MailboxOpen_1C9C67B2.wem</Path>
 				</File>
 				<File Id="513139282" Language="SFX">
 					<ShortName>feedbacks\YGM-impactJournal.wav</ShortName>
