@@ -3,21 +3,21 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Mailboxe_Validation" ID="{9230C0FF-EEB6-4429-95DB-26DB790C800E}">
+				<Event Name="YGM_MailboxValidation" ID="{9230C0FF-EEB6-4429-95DB-26DB790C800E}">
 					<ChildrenList>
-						<Action Name="" ID="{AEA35509-D6CE-4208-8E81-A7265B86095C}" ShortID="998049330">
+						<Action Name="" ID="{77CED61A-ED74-4679-BEC2-F5FEEA7AB16E}" ShortID="1071044193">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-validationMailboxe" ID="{748F2BDA-6776-461E-B00B-1A27E164B542}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_MailboxValidation" ID="{6C8D1BE6-84F1-4833-B2DD-6914E9A4B956}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Impacte_Journal" ID="{A6B2B1E6-5505-4F21-A7BD-13196C2305D1}">
+				<Event Name="YGM_NewspaperImpact" ID="{A6B2B1E6-5505-4F21-A7BD-13196C2305D1}">
 					<ChildrenList>
 						<Action Name="" ID="{2248F156-FAEA-451D-A85B-23A6B578B701}" ShortID="19029421">
 							<PropertyList>
@@ -25,13 +25,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-NewspaperImpact" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_NewspaperImpact" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Impacte_Colis" ID="{03657952-C863-48B5-B20B-7BE77FEF6EF4}">
+				<Event Name="YGM_PackageImpact" ID="{03657952-C863-48B5-B20B-7BE77FEF6EF4}">
 					<ChildrenList>
 						<Action Name="" ID="{318DF09E-14A2-4DD4-9457-27E3FCBDFE5B}" ShortID="859750421">
 							<PropertyList>
@@ -39,13 +39,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-PackageImpact" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_PackageImpact" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Impacte_Lettre" ID="{EFF9E78E-7102-44A6-9D9C-83F61757EB99}">
+				<Event Name="YGM_LetterImpact" ID="{EFF9E78E-7102-44A6-9D9C-83F61757EB99}">
 					<ChildrenList>
 						<Action Name="" ID="{90C5EBEA-B0E7-4015-BD3A-BCB8F92BF69D}" ShortID="424767602">
 							<PropertyList>
@@ -53,13 +53,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-LetterImpact" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_LetterImpact" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pnj1_Marche" ID="{7E0C7DDA-C5B2-4CDC-AB51-F0BC2DA3FD5B}">
+				<Event Name="YGM_Pnj1Walk" ID="{7E0C7DDA-C5B2-4CDC-AB51-F0BC2DA3FD5B}">
 					<ChildrenList>
 						<Action Name="" ID="{57EB519A-2534-4C82-AA60-85A644BB4FD9}" ShortID="240488977">
 							<PropertyList>
@@ -67,13 +67,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pnj2_Marche" ID="{7DD93CDF-0EAC-4324-BC43-D7D811DA4AA6}">
+				<Event Name="YGM_Pnj2Walk" ID="{7DD93CDF-0EAC-4324-BC43-D7D811DA4AA6}">
 					<ChildrenList>
 						<Action Name="" ID="{42AAFDEF-FDC1-4761-8B1F-52A628D64DA8}" ShortID="219840534">
 							<PropertyList>
@@ -81,7 +81,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM-Pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_Pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Gunshot" ID="{76AE21F3-F1B5-4A15-B86E-520AECB9D827}">
+					<ChildrenList>
+						<Action Name="" ID="{65EBD309-0B56-4645-BA9D-7C3F042AE480}" ShortID="642493166">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_GunShot" ID="{C2E48573-ADEE-4655-B810-85140E624DAD}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

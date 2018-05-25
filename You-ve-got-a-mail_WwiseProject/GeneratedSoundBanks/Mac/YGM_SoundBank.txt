@@ -1,23 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
-	57770325	Pnj1_Marche			\Default Work Unit\Pnj1_Marche	
-	350483411	Impacte_Colis			\Default Work Unit\Impacte_Colis	
-	2326840496	Impacte_Journal			\Default Work Unit\Impacte_Journal	
-	2557691788	Pnj2_Marche			\Default Work Unit\Pnj2_Marche	
-	2570357845	Impacte_Lettre			\Default Work Unit\Impacte_Lettre	
+	113418973	YGM_Gunshot			\Default Work Unit\YGM_Gunshot	
+	1366380992	YGM_Pnj2Walk			\Default Work Unit\YGM_Pnj2Walk	
+	2818181119	YGM_Pnj1Walk			\Default Work Unit\YGM_Pnj1Walk	
+	3000227129	YGM_PackageImpact			\Default Work Unit\YGM_PackageImpact	
+	3376158800	YGM_NewspaperImpact			\Default Work Unit\YGM_NewspaperImpact	
+	3626333799	YGM_LetterImpact			\Default Work Unit\YGM_LetterImpact	
+	3713421942	YGM_MailboxValidation			\Default Work Unit\YGM_MailboxValidation	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	83525507	YGM-MailboxInhale	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxInhale_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxInhale		5424364
-	100640021	YGM-PostLoading	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\chargementpoteau_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-PostLoading		661564
-	279637094	YGM-ObjectSpawn	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-ObjectSpawn_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signs\YGM-ObjectSpawn		75034
-	365022121	YGM-LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-LetterImpact		19242
-	474466795	YGM-MailboxOpeningClosing	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxOpen_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxOpeningClosing		33428
-	483413206	YGM-Sea	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-Sea_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM-Sea		10455008
-	513139282	YGM-NewspaperImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-NewspaperImpact		21176
-	710709848	YGM-MailboxMovement	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxMovement_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM-MailboxMovement		832202
-	717951268	YGM-GunShot	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-GunShot_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-GunShot		132364
-	746658345	YGM-MailboxValidation	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-mailboxvalidation_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxValidation		49394
-	893225651	YGM-Pnj2Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM-Pnj2Walk		49050
-	916069169	YGM-PackageImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactColis_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-PackageImpact		35024
-	992466882	YGM-Pnj1Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM-Pnj1Walk		30380
-	1058828079	YGM-PostEnd	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\finpoteau_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-PostEnd		178228
+	365022121	YGM_LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_LetterImpact		19242
+	513139282	YGM_NewspaperImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_NewspaperImpact		21176
+	717951268	YGM_GunShot	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-GunShot_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_GunShot		132364
+	746658345	YGM_MailboxValidation	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-mailboxvalidation_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_MailboxValidation		49394
+	893225651	YGM_Pnj2Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj2Walk		49050
+	916069169	YGM_PackageImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactColis_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_PackageImpact		35024
+	992466882	YGM_Pnj1Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj1Walk		30380
 

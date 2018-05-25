@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="YGM-Pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" ShortID="519600166">
+						<Sound Name="YGM_Pnj2Walk" ID="{5D2D8703-180A-4B5E-BB4B-643AE26B6A2C}" ShortID="519600166">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -102,7 +102,7 @@
 								<ActiveSource Name="YGM-pnj2Walk" ID="{FD048858-7199-44E2-9587-5BB4BDAAD869}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" ShortID="252773473">
+						<Sound Name="YGM_Pnj1Walk" ID="{0089FC5D-185F-48CE-9058-D22759721DEB}" ShortID="252773473">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -338,6 +338,101 @@
 								<ActiveSource Name="YGM-MailboxMovement" ID="{57944232-46ED-4E7E-8818-40F34EA276B0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="YGM-BirdEnviro" ID="{EBDF93C2-E8ED-4A36-A217-50670A25123C}" ShortID="755797883">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-BirdEnviro" ID="{DA2E8A2F-2EBA-45F1-AC45-7BDF07B462AB}" ShortID="218541813">
+									<Language>SFX</Language>
+									<AudioFile>YGM-BirdEnviro.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-BirdEnviro" ID="{DA2E8A2F-2EBA-45F1-AC45-7BDF07B462AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-Propeller" ID="{7986461F-5557-43C3-90AD-E2AFBF6476C3}" ShortID="648433863">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-Propeller" ID="{830478AD-97FC-461B-A4B9-C28D89DE03A8}" ShortID="279212645">
+									<Language>SFX</Language>
+									<AudioFile>YGM-Propeller.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-Propeller" ID="{830478AD-97FC-461B-A4B9-C28D89DE03A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-CarMoving" ID="{3E435B3E-C5A4-42BC-9320-B6D5ED938195}" ShortID="300307234">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarMoving" ID="{06910C3A-AC96-489D-A657-D5933CCD9DB9}" ShortID="587580616">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarMoving.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarMoving" ID="{06910C3A-AC96-489D-A657-D5933CCD9DB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-CarStart" ID="{2E7A4121-389A-43BE-A9E4-263838F26B47}" ShortID="211000707">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarStart" ID="{58BE6CCB-19E4-4F56-B028-78C6B17813B8}" ShortID="131416790">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarStart.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarStart" ID="{58BE6CCB-19E4-4F56-B028-78C6B17813B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-CarStop" ID="{62F4A44B-458B-47ED-BB66-980094A9C7A3}" ShortID="436739433">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarStop" ID="{2E253DF4-34C3-486B-84FC-A7BDA95ED3C6}" ShortID="316020647">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarStop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarStop" ID="{2E253DF4-34C3-486B-84FC-A7BDA95ED3C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Feedbacks" ID="{544E6AA1-E9EB-4F73-ACFB-42D6FAA1FD87}" ShortID="989791579">
@@ -350,7 +445,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="YGM-NewspaperImpact" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" ShortID="696618705">
+						<Sound Name="YGM_NewspaperImpact" ID="{FAF3B1A8-3A76-4FBD-9EEA-E52D07526C55}" ShortID="696618705">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -434,7 +529,7 @@
 								<ActiveSource Name="YGM-impactJournal" ID="{3B0CFFC7-71D6-4D55-BDE6-8EAF5FC80A40}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-LetterImpact" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" ShortID="304945467">
+						<Sound Name="YGM_LetterImpact" ID="{41C26390-B6CA-48A6-8A3C-B9C49EBF2A59}" ShortID="304945467">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -523,7 +618,7 @@
 								<ActiveSource Name="YGM-impactLettre" ID="{BF3094B5-9709-4B13-B25B-F7C9F1BB3286}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-PackageImpact" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" ShortID="713192772">
+						<Sound Name="YGM_PackageImpact" ID="{2CFCDF45-0EBF-4B6F-A249-A080925057D5}" ShortID="713192772">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ModifierList>
@@ -860,7 +955,7 @@
 								<ActiveSource Name="YGM-MailboxOpen" ID="{260BB9AA-CCE2-4326-8DB0-344AA575F7BC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-MailboxValidation" ID="{6C8D1BE6-84F1-4833-B2DD-6914E9A4B956}" ShortID="290552032">
+						<Sound Name="YGM_MailboxValidation" ID="{6C8D1BE6-84F1-4833-B2DD-6914E9A4B956}" ShortID="290552032">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -944,7 +1039,7 @@
 								<ActiveSource Name="YGM-mailboxvalidation" ID="{83103556-C240-4DC0-859C-102660B80A98}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-GunShot" ID="{C2E48573-ADEE-4655-B810-85140E624DAD}" ShortID="913908557">
+						<Sound Name="YGM_GunShot" ID="{C2E48573-ADEE-4655-B810-85140E624DAD}" ShortID="913908557">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -1328,6 +1423,37 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="YGM-Wind" ID="{80360AE3-F70C-4314-BD4D-27C32BFB3AFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="UI" ID="{D22D26AF-3083-4050-A22E-1B18E1BC2F9D}" ShortID="241669091">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="YGM-UiClick" ID="{588DE74F-92BE-469D-A20E-B6ACF098F27D}" ShortID="371013625">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-UiClick" ID="{C6953E16-1EB4-429C-B7DB-DBB74A710F51}" ShortID="338056719">
+									<Language>SFX</Language>
+									<AudioFile>YGM-UiClick.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-UiClick" ID="{C6953E16-1EB4-429C-B7DB-DBB74A710F51}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

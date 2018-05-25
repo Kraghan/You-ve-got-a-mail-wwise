@@ -16,44 +16,22 @@
 			<ShortName>YGM_SoundBank</ShortName>
 			<Path>YGM_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="350483411" Name="Impacte_Colis" ObjectPath="\Events\Default Work Unit\Impacte_Colis" MaxAttenuation="100.000000"/>
-				<Event Id="2326840496" Name="Impacte_Journal" ObjectPath="\Events\Default Work Unit\Impacte_Journal" MaxAttenuation="100.000000"/>
-				<Event Id="2570357845" Name="Impacte_Lettre" ObjectPath="\Events\Default Work Unit\Impacte_Lettre" MaxAttenuation="100.000000"/>
-				<Event Id="57770325" Name="Pnj1_Marche" ObjectPath="\Events\Default Work Unit\Pnj1_Marche" MaxAttenuation="100.000000"/>
-				<Event Id="2557691788" Name="Pnj2_Marche" ObjectPath="\Events\Default Work Unit\Pnj2_Marche" MaxAttenuation="100.000000"/>
+				<Event Id="113418973" Name="YGM_Gunshot" ObjectPath="\Events\Default Work Unit\YGM_Gunshot" MaxAttenuation="100.000000"/>
+				<Event Id="3626333799" Name="YGM_LetterImpact" ObjectPath="\Events\Default Work Unit\YGM_LetterImpact" MaxAttenuation="100.000000"/>
+				<Event Id="3713421942" Name="YGM_MailboxValidation" ObjectPath="\Events\Default Work Unit\YGM_MailboxValidation" MaxAttenuation="100.000000"/>
+				<Event Id="3376158800" Name="YGM_NewspaperImpact" ObjectPath="\Events\Default Work Unit\YGM_NewspaperImpact" MaxAttenuation="100.000000"/>
+				<Event Id="3000227129" Name="YGM_PackageImpact" ObjectPath="\Events\Default Work Unit\YGM_PackageImpact" MaxAttenuation="100.000000"/>
+				<Event Id="2818181119" Name="YGM_Pnj1Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj1Walk" MaxAttenuation="100.000000"/>
+				<Event Id="1366380992" Name="YGM_Pnj2Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj2Walk" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="83525507" Language="SFX">
-					<ShortName>YGM-MailboxInhale.wav</ShortName>
-					<Path>SFX\YGM-MailboxInhale_1C9C67B2.wem</Path>
-				</File>
-				<File Id="100640021" Language="SFX">
-					<ShortName>chargementpoteau.wav</ShortName>
-					<Path>SFX\chargementpoteau_1C9C67B2.wem</Path>
-				</File>
-				<File Id="279637094" Language="SFX">
-					<ShortName>YGM-ObjectSpawn.wav</ShortName>
-					<Path>SFX\YGM-ObjectSpawn_1C9C67B2.wem</Path>
-				</File>
 				<File Id="365022121" Language="SFX">
 					<ShortName>feedbacks\YGM-impactLettre.wav</ShortName>
 					<Path>SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem</Path>
 				</File>
-				<File Id="474466795" Language="SFX">
-					<ShortName>YGM-MailboxOpen.wav</ShortName>
-					<Path>SFX\YGM-MailboxOpen_1C9C67B2.wem</Path>
-				</File>
-				<File Id="483413206" Language="SFX">
-					<ShortName>YGM-Sea.wav</ShortName>
-					<Path>SFX\YGM-Sea_1C9C67B2.wem</Path>
-				</File>
 				<File Id="513139282" Language="SFX">
 					<ShortName>feedbacks\YGM-impactJournal.wav</ShortName>
 					<Path>SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem</Path>
-				</File>
-				<File Id="710709848" Language="SFX">
-					<ShortName>YGM-MailboxMovement.wav</ShortName>
-					<Path>SFX\YGM-MailboxMovement_1C9C67B2.wem</Path>
 				</File>
 				<File Id="717951268" Language="SFX">
 					<ShortName>YGM-GunShot.wav</ShortName>
@@ -74,10 +52,6 @@
 				<File Id="992466882" Language="SFX">
 					<ShortName>Environment\YGM-pnj1Walk.wav</ShortName>
 					<Path>SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem</Path>
-				</File>
-				<File Id="1058828079" Language="SFX">
-					<ShortName>finpoteau.wav</ShortName>
-					<Path>SFX\finpoteau_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
