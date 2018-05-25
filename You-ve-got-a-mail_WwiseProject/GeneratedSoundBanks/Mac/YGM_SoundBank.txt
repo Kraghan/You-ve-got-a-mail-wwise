@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	75378572	YGM_PoleLoading_Start			\Default Work Unit\YGM_PoleLoading_Start	
 	113418973	YGM_Gunshot			\Default Work Unit\YGM_Gunshot	
 	211756509	YGM_MailboxMovement_Start			\Default Work Unit\YGM_MailboxMovement_Start	
+	566017294	YGM_PoleEnd			\Default Work Unit\YGM_PoleEnd	
+	1055769398	YGM_Propeller			\Default Work Unit\YGM_Propeller	
 	1366380992	YGM_Pnj2Walk			\Default Work Unit\YGM_Pnj2Walk	
 	1861343473	YGM_MailboxInhale_Stop			\Default Work Unit\YGM_MailboxInhale_Stop	
 	2344412261	YGM_ObjectSPawn			\Default Work Unit\YGM_ObjectSPawn	
@@ -15,7 +18,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4265059025	YGM_UiClick			\Default Work Unit\YGM_UiClick	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	83525507	YGM-MailboxInhale	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxInhale_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxInhale		5424364
+	83525507	YGM_MailboxInhale	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxInhale_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_MailboxInhale		5424364
+	100640021	YGM_PoleLoading	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\chargementpoteau_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_PoleLoading		661564
+	279212645	YGM_Propeller	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-Propeller_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Propeller		1263452
 	279637094	YGM_ObjectSpawn	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-ObjectSpawn_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signs\YGM_ObjectSpawn		75034
 	338056719	YGM_UiClick	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-UiClick_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\YGM_UiClick		657644
 	365022121	YGM_LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_LetterImpact		19242
@@ -27,4 +32,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	893225651	YGM_Pnj2Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj2Walk		49050
 	916069169	YGM_PackageImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactColis_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_PackageImpact		35024
 	992466882	YGM_Pnj1Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj1Walk		30380
+	1058828079	YGM_PoleEnd	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\finpoteau_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_PoleEnd		178228
 

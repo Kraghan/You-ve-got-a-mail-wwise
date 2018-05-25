@@ -29,12 +29,23 @@
 				<Event Id="3000227129" Name="YGM_PackageImpact" ObjectPath="\Events\Default Work Unit\YGM_PackageImpact" MaxAttenuation="100.000000"/>
 				<Event Id="2818181119" Name="YGM_Pnj1Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj1Walk" MaxAttenuation="100.000000"/>
 				<Event Id="1366380992" Name="YGM_Pnj2Walk" ObjectPath="\Events\Default Work Unit\YGM_Pnj2Walk" MaxAttenuation="100.000000"/>
+				<Event Id="566017294" Name="YGM_PoleEnd" ObjectPath="\Events\Default Work Unit\YGM_PoleEnd"/>
+				<Event Id="75378572" Name="YGM_PoleLoading_Start" ObjectPath="\Events\Default Work Unit\YGM_PoleLoading_Start"/>
+				<Event Id="1055769398" Name="YGM_Propeller" ObjectPath="\Events\Default Work Unit\YGM_Propeller"/>
 				<Event Id="4265059025" Name="YGM_UiClick" ObjectPath="\Events\Default Work Unit\YGM_UiClick" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="83525507" Language="SFX">
 					<ShortName>YGM-MailboxInhale.wav</ShortName>
 					<Path>SFX\YGM-MailboxInhale_F17FB28C.wem</Path>
+				</File>
+				<File Id="100640021" Language="SFX">
+					<ShortName>chargementpoteau.wav</ShortName>
+					<Path>SFX\chargementpoteau_F17FB28C.wem</Path>
+				</File>
+				<File Id="279212645" Language="SFX">
+					<ShortName>YGM-Propeller.wav</ShortName>
+					<Path>SFX\YGM-Propeller_F17FB28C.wem</Path>
 				</File>
 				<File Id="279637094" Language="SFX">
 					<ShortName>YGM-ObjectSpawn.wav</ShortName>
@@ -79,6 +90,10 @@
 				<File Id="992466882" Language="SFX">
 					<ShortName>Environment\YGM-pnj1Walk.wav</ShortName>
 					<Path>SFX\Environment\YGM-pnj1Walk_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1058828079" Language="SFX">
+					<ShortName>finpoteau.wav</ShortName>
+					<Path>SFX\finpoteau_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
