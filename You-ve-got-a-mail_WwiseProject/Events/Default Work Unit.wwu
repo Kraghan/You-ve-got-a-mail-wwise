@@ -101,6 +101,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="YGM_MailboxOpeningClosing" ID="{833AE20D-1563-44D0-A80D-25CB5694D6C4}">
+					<ChildrenList>
+						<Action Name="" ID="{25F61A2A-3704-4048-BF17-DFCE931A952F}" ShortID="732509920">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_MailboxOpeningClosing" ID="{D2978A37-3D55-43B4-8D04-C8BF1CC453F9}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_ObjectSPawn" ID="{141A5FCE-9BD4-4063-B292-5613A35FB4FE}">
+					<ChildrenList>
+						<Action Name="" ID="{32580E18-DB93-4FAE-AD11-EBC50868FFF1}" ShortID="332548882">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_ObjectSpawn" ID="{A4B25D61-4DFE-4810-A003-ADA00BE74D0A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_UiClick" ID="{F61750AF-EEE9-4A39-8897-099AA5F98ACB}">
+					<ChildrenList>
+						<Action Name="" ID="{24A2A6AD-640A-4416-BF66-22B09025E968}" ShortID="487579139">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_UiClick" ID="{588DE74F-92BE-469D-A20E-B6ACF098F27D}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
