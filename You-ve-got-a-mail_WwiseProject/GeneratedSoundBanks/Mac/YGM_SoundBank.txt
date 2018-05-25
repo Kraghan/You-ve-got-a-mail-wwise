@@ -2,8 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	113418973	YGM_Gunshot			\Default Work Unit\YGM_Gunshot	
 	211756509	YGM_MailboxMovement_Start			\Default Work Unit\YGM_MailboxMovement_Start	
 	1366380992	YGM_Pnj2Walk			\Default Work Unit\YGM_Pnj2Walk	
+	1861343473	YGM_MailboxInhale_Stop			\Default Work Unit\YGM_MailboxInhale_Stop	
 	2344412261	YGM_ObjectSPawn			\Default Work Unit\YGM_ObjectSPawn	
 	2818181119	YGM_Pnj1Walk			\Default Work Unit\YGM_Pnj1Walk	
+	2980684211	YGM_MailboxInhale_Start			\Default Work Unit\YGM_MailboxInhale_Start	
 	3000227129	YGM_PackageImpact			\Default Work Unit\YGM_PackageImpact	
 	3376158800	YGM_NewspaperImpact			\Default Work Unit\YGM_NewspaperImpact	
 	3562579935	YGM_MailboxMovement_Stop			\Default Work Unit\YGM_MailboxMovement_Stop	
@@ -13,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4265059025	YGM_UiClick			\Default Work Unit\YGM_UiClick	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	83525507	YGM-MailboxInhale	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-MailboxInhale_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM-MailboxInhale		5424364
 	279637094	YGM_ObjectSpawn	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-ObjectSpawn_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signs\YGM_ObjectSpawn		75034
 	338056719	YGM_UiClick	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\YGM-UiClick_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\YGM_UiClick		657644
 	365022121	YGM_LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_LetterImpact		19242
