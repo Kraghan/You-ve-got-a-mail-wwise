@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	113418973	YGM_Gunshot			\Default Work Unit\YGM_Gunshot	
+	211756509	YGM_MailboxMovement_Start			\Default Work Unit\YGM_MailboxMovement_Start	
 	1366380992	YGM_Pnj2Walk			\Default Work Unit\YGM_Pnj2Walk	
 	2344412261	YGM_ObjectSPawn			\Default Work Unit\YGM_ObjectSPawn	
 	2818181119	YGM_Pnj1Walk			\Default Work Unit\YGM_Pnj1Walk	
 	3000227129	YGM_PackageImpact			\Default Work Unit\YGM_PackageImpact	
 	3376158800	YGM_NewspaperImpact			\Default Work Unit\YGM_NewspaperImpact	
+	3562579935	YGM_MailboxMovement_Stop			\Default Work Unit\YGM_MailboxMovement_Stop	
 	3626333799	YGM_LetterImpact			\Default Work Unit\YGM_LetterImpact	
 	3713421942	YGM_MailboxValidation			\Default Work Unit\YGM_MailboxValidation	
 	4140502890	YGM_MailboxOpeningClosing			\Default Work Unit\YGM_MailboxOpeningClosing	
@@ -16,6 +18,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	365022121	YGM_LetterImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactLettre_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_LetterImpact		19242
 	474466795	YGM_MailboxOpeningClosing	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-MailboxOpen_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_MailboxOpeningClosing		33428
 	513139282	YGM_NewspaperImpact	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\feedbacks\YGM-impactJournal_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_NewspaperImpact		21176
+	710709848	YGM_MailboxMovement	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-MailboxMovement_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_MailboxMovement		832202
 	717951268	YGM_GunShot	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-GunShot_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_GunShot		132364
 	746658345	YGM_MailboxValidation	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\YGM-mailboxvalidation_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_MailboxValidation		49394
 	893225651	YGM_Pnj2Walk	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Windows\SFX\Environment\YGM-pnj2Walk_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj2Walk		49050
