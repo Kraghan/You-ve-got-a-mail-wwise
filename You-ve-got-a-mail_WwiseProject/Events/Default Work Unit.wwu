@@ -176,10 +176,106 @@
 						<Action Name="" ID="{7EAF4D3C-DB15-411F-A061-776CAC8886A5}" ShortID="826538627">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="YGM_MailboxMovement" ID="{8F3836F3-2FFD-4386-BED9-F1C9F09D4E5B}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_MailboxInhale_Start" ID="{2F1B7C93-68D2-43AC-B07A-97FDC0F3EB71}">
+					<ChildrenList>
+						<Action Name="" ID="{830E0380-5FA7-4061-995A-0E6199DB37AD}" ShortID="595117877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_MailboxInhale" ID="{3F57271C-EE5F-4BD1-97FD-A5476C6F0494}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_MailboxInhale_Stop" ID="{A4231995-DD4B-411A-A474-7E619D0C69FB}">
+					<ChildrenList>
+						<Action Name="" ID="{8AAA2249-33D1-4F28-B9DB-011B77DE88AA}" ShortID="256619133">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_MailboxInhale" ID="{3F57271C-EE5F-4BD1-97FD-A5476C6F0494}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_PoleLoading_Start" ID="{E901FA9C-ED87-4D40-8399-48A064ED12A1}">
+					<ChildrenList>
+						<Action Name="" ID="{A3BA38B7-1EF9-4C54-9DD6-7DA5CB767F9E}" ShortID="760902131">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}">
+					<ChildrenList>
+						<Action Name="" ID="{3090CAB8-BE70-4D5C-B86C-46DE179AB10D}" ShortID="467257192">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6180E338-E358-4726-A99D-0B1A721E4AC0}" ShortID="852138096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_PoleEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_SeaEnviro" ID="{13F74A50-8B1F-438F-ACA0-E9EA33381577}">
+					<ChildrenList>
+						<Action Name="" ID="{FDA5C9D5-48F5-4022-9D14-08DD7D843260}" ShortID="67592570">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_SeaEnviro" ID="{B1BF97B3-FD29-47ED-A925-9A3F6EF893F7}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_BirdEnviro" ID="{AB4A8D4A-1873-4B89-B042-B83A6231E1DC}">
+					<ChildrenList>
+						<Action Name="" ID="{67DC49C4-67B8-4972-9697-93A75D05BF33}" ShortID="741252898">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_BirdEnviro" ID="{EBDF93C2-E8ED-4A36-A217-50670A25123C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

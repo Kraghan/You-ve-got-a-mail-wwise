@@ -16,6 +16,7 @@
 			<ShortName>YGM_SoundBank</ShortName>
 			<Path>YGM_SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3381172295" Name="YGM_BirdEnviro" ObjectPath="\Events\Default Work Unit\YGM_BirdEnviro"/>
 				<Event Id="113418973" Name="YGM_Gunshot" ObjectPath="\Events\Default Work Unit\YGM_Gunshot" MaxAttenuation="100.000000"/>
 				<Event Id="3626333799" Name="YGM_LetterImpact" ObjectPath="\Events\Default Work Unit\YGM_LetterImpact" MaxAttenuation="100.000000"/>
 				<Event Id="2980684211" Name="YGM_MailboxInhale_Start" ObjectPath="\Events\Default Work Unit\YGM_MailboxInhale_Start" MaxAttenuation="100.000000"/>
@@ -32,6 +33,7 @@
 				<Event Id="566017294" Name="YGM_PoleEnd" ObjectPath="\Events\Default Work Unit\YGM_PoleEnd"/>
 				<Event Id="75378572" Name="YGM_PoleLoading_Start" ObjectPath="\Events\Default Work Unit\YGM_PoleLoading_Start"/>
 				<Event Id="1055769398" Name="YGM_Propeller" ObjectPath="\Events\Default Work Unit\YGM_Propeller"/>
+				<Event Id="2059578557" Name="YGM_SeaEnviro" ObjectPath="\Events\Default Work Unit\YGM_SeaEnviro" MaxAttenuation="100.000000"/>
 				<Event Id="4265059025" Name="YGM_UiClick" ObjectPath="\Events\Default Work Unit\YGM_UiClick" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -42,6 +44,10 @@
 				<File Id="100640021" Language="SFX">
 					<ShortName>chargementpoteau.wav</ShortName>
 					<Path>SFX\chargementpoteau_F17FB28C.wem</Path>
+				</File>
+				<File Id="218541813" Language="SFX">
+					<ShortName>YGM-BirdEnviro.wav</ShortName>
+					<Path>SFX\YGM-BirdEnviro_F17FB28C.wem</Path>
 				</File>
 				<File Id="279212645" Language="SFX">
 					<ShortName>YGM-Propeller.wav</ShortName>
@@ -62,6 +68,10 @@
 				<File Id="474466795" Language="SFX">
 					<ShortName>YGM-MailboxOpen.wav</ShortName>
 					<Path>SFX\YGM-MailboxOpen_1C9C67B2.wem</Path>
+				</File>
+				<File Id="483413206" Language="SFX">
+					<ShortName>YGM-Sea.wav</ShortName>
+					<Path>SFX\YGM-Sea_F17FB28C.wem</Path>
 				</File>
 				<File Id="513139282" Language="SFX">
 					<ShortName>feedbacks\YGM-impactJournal.wav</ShortName>

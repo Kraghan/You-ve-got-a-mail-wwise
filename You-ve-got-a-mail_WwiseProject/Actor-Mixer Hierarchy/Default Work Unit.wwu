@@ -191,7 +191,7 @@
 								<ActiveSource Name="YGM-pnj1Walk" ID="{6CAC53E0-A940-4D19-B061-963ED91F0DAF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-Sea" ID="{B1BF97B3-FD29-47ED-A925-9A3F6EF893F7}" ShortID="133700178">
+						<Sound Name="YGM_SeaEnviro" ID="{B1BF97B3-FD29-47ED-A925-9A3F6EF893F7}" ShortID="133700178">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -273,7 +273,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>40</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -345,7 +345,7 @@
 								<ActiveSource Name="YGM-MailboxMovement" ID="{57944232-46ED-4E7E-8818-40F34EA276B0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-BirdEnviro" ID="{EBDF93C2-E8ED-4A36-A217-50670A25123C}" ShortID="755797883">
+						<Sound Name="YGM_BirdEnviro" ID="{EBDF93C2-E8ED-4A36-A217-50670A25123C}" ShortID="755797883">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
@@ -375,6 +375,11 @@
 						<Sound Name="YGM_Propeller" ID="{7986461F-5557-43C3-90AD-E2AFBF6476C3}" ShortID="648433863">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -754,8 +759,9 @@
 								<ActiveSource Name="YGM-impactColis" ID="{AE2778EA-6E7D-469E-9A58-48F040463489}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-PostLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" ShortID="99194940">
+						<Sound Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" ShortID="99194940">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -823,7 +829,7 @@
 								<ActiveSource Name="chargementpoteau" ID="{0E21CB68-4639-4E67-8848-32C5FF260099}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-PostEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" ShortID="474441809">
+						<Sound Name="YGM_PoleEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" ShortID="474441809">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
@@ -1144,8 +1150,9 @@
 								<ActiveSource Name="YGM-GunShot" ID="{EB9F504E-C996-4FC1-93AD-C3DAA864A147}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM-MailboxInhale" ID="{3F57271C-EE5F-4BD1-97FD-A5476C6F0494}" ShortID="600217367">
+						<Sound Name="YGM_MailboxInhale" ID="{3F57271C-EE5F-4BD1-97FD-A5476C6F0494}" ShortID="600217367">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">

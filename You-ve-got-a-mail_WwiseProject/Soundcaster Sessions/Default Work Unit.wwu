@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{625B849D-65E3-4705-8386-3F80638D9295}" SchemaVersion="85">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{625B849D-65E3-4705-8386-3F80638D9295}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{625B849D-65E3-4705-8386-3F80638D9295}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test" ID="{77F02074-FFCD-4950-8645-60886E49F67C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_PoleLoading_Start" ID="{E901FA9C-ED87-4D40-8399-48A064ED12A1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="mailbox" ID="{D1311E06-3C8D-4120-98E9-B9A4AAFC9EEF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_MailboxInhale_Start" ID="{2F1B7C93-68D2-43AC-B07A-97FDC0F3EB71}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_MailboxOpeningClosing" ID="{833AE20D-1563-44D0-A80D-25CB5694D6C4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_MailboxInhale_Stop" ID="{A4231995-DD4B-411A-A474-7E619D0C69FB}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_MailboxValidation" ID="{9230C0FF-EEB6-4429-95DB-26DB790C800E}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_MailboxMovement_Start" ID="{9AE20A99-8581-4DC1-BCC9-8B68019B6744}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_ObjectSPawn" ID="{141A5FCE-9BD4-4063-B292-5613A35FB4FE}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_MailboxMovement_Stop" ID="{20796F78-FE40-4990-918E-13C5851CD501}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_Gunshot" ID="{76AE21F3-F1B5-4A15-B86E-520AECB9D827}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

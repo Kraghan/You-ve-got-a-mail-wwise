@@ -6,15 +6,22 @@
 				<SoundBank Name="YGM_SoundBank" ID="{0AD2B58A-913E-4199-A600-84745AABDC8D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="YGM_ObjectSPawn" ID="{141A5FCE-9BD4-4063-B292-5613A35FB4FE}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_MailboxInhale_Stop" ID="{A4231995-DD4B-411A-A474-7E619D0C69FB}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Pnj2Walk" ID="{7DD93CDF-0EAC-4324-BC43-D7D811DA4AA6}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_SeaEnviro" ID="{13F74A50-8B1F-438F-ACA0-E9EA33381577}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_MailboxInhale_Start" ID="{2F1B7C93-68D2-43AC-B07A-97FDC0F3EB71}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxValidation" ID="{9230C0FF-EEB6-4429-95DB-26DB790C800E}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_LetterImpact" ID="{EFF9E78E-7102-44A6-9D9C-83F61757EB99}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxOpeningClosing" ID="{833AE20D-1563-44D0-A80D-25CB5694D6C4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_PackageImpact" ID="{03657952-C863-48B5-B20B-7BE77FEF6EF4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxMovement_Stop" ID="{20796F78-FE40-4990-918E-13C5851CD501}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Gunshot" ID="{76AE21F3-F1B5-4A15-B86E-520AECB9D827}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_UiClick" ID="{F61750AF-EEE9-4A39-8897-099AA5F98ACB}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_Propeller" ID="{32BD5B8A-9DAD-4A6A-87CD-0B6DD3DFF9B8}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_BirdEnviro" ID="{AB4A8D4A-1873-4B89-B042-B83A6231E1DC}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Pnj1Walk" ID="{7E0C7DDA-C5B2-4CDC-AB51-F0BC2DA3FD5B}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_PoleLoading_Start" ID="{E901FA9C-ED87-4D40-8399-48A064ED12A1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxMovement_Start" ID="{9AE20A99-8581-4DC1-BCC9-8B68019B6744}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_NewspaperImpact" ID="{A6B2B1E6-5505-4F21-A7BD-13196C2305D1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
