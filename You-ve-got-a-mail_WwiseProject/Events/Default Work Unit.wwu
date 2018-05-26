@@ -281,6 +281,99 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="YGM_Car_Start" ID="{36956AB3-CCD7-4561-B0B7-F0A6A8AE64EE}">
+					<ChildrenList>
+						<Action Name="" ID="{4BF3CA93-406B-4CC1-AE36-965A9B09C9A8}" ShortID="380365751">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CarStart" ID="{C64C9246-2023-49D4-8F01-5C6CED0449BA}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{587E1240-D1CC-46E8-9AAA-7A0394974AF0}" ShortID="410095213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.75"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CarMoving" ID="{22D2D7F2-4D6F-4E33-AEF5-148085DB853E}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Car_Stop" ID="{68338534-7DB0-433F-98BD-5A214E7C9F93}">
+					<ChildrenList>
+						<Action Name="" ID="{394A44E2-ACD0-44D7-ABC5-DEC475DA6A5D}" ShortID="385747151">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CarMoving" ID="{22D2D7F2-4D6F-4E33-AEF5-148085DB853E}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE3D117D-66B5-4E10-A7BF-D3C9257DBC98}" ShortID="6454756">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CarStop" ID="{EFEAC804-C013-4069-AE68-A4E0D9D447CD}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Pnj1Hit" ID="{8030BDA1-9A69-4FEB-B51B-43DC3CF18309}">
+					<ChildrenList>
+						<Action Name="" ID="{0C0710B4-53C1-40EC-9A7B-0C9740E2577F}" ShortID="153002794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_Pnj1Hit" ID="{23433880-C3E0-429D-B11E-DB5DA28BFC60}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Pnj2Hit" ID="{1686604C-05E9-43C1-AA34-60576A858E25}">
+					<ChildrenList>
+						<Action Name="" ID="{B5BE8EFB-82B2-41B1-B6D2-E9D007CAEDC7}" ShortID="494338458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_Pnj2Hit" ID="{265F5D5C-36C6-4F9C-AE83-00BD29153203}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Pnj1Talking" ID="{6F7AEAF3-29F2-4A0B-A98F-E15F07BFE45F}">
+					<ChildrenList>
+						<Action Name="" ID="{3F053BB0-C9DB-41C5-8C64-F7A6E3100518}" ShortID="865260225">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_Pnj1Talking" ID="{9461463B-B6C6-4112-894B-AD476E185B47}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

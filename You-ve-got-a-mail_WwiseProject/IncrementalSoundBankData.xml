@@ -3,26 +3,26 @@
 	<Platform GUID="{407EAFA7-61EC-46ED-A8F0-0C19927104B2}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1513169776" Timestamp="1526995523"/>
-				<File Name="YGM_SoundBank" Hash="1575242443" Timestamp="1527264573"/>
+				<File Name="Init" Hash="2898288595" Timestamp="1527356694"/>
+				<File Name="YGM_SoundBank" Hash="2231104169" Timestamp="1527356694"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1637530370" Timestamp="1527264573"/>
+				<File Name="" Hash="776625819" Timestamp="1527356694"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{D1FD0BFF-C0FC-4A89-8423-B1AEA219860F}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2541046266" Timestamp="1526995523"/>
-				<File Name="YGM_SoundBank" Hash="1575242443" Timestamp="1527264572"/>
+				<File Name="Init" Hash="4245030481" Timestamp="1527356692"/>
+				<File Name="YGM_SoundBank" Hash="2231104169" Timestamp="1527356692"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2529232928" Timestamp="1527264572"/>
+				<File Name="" Hash="3221183317" Timestamp="1527356692"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

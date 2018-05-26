@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527012873" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527346610" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1526666198" DateHigh="0"/>
@@ -10,23 +10,25 @@
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Effects\Factory Auro Headphone.wwu" DateLow="1526659183" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Effects\Factory Effects.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Events\Default Work Unit.wwu" DateLow="1526918825" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526742817" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Events\Default Work Unit.wwu" DateLow="1527342865" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Events\Music.wwu" DateLow="1527346361" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1527346361" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1527346361" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527342865" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Queries\Factory Queries.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1527012873" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\States\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1527264587" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1527346610" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\States\Default Work Unit.wwu" DateLow="1527342865" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\States\Music.wwu" DateLow="1527346361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\You-ve-got-a-mail_WwiseProject.victo.wsettings" DateLow="1527204788" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\You-ve-got-a-mail_WwiseProject.wproj" DateLow="1526995419" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\You-ve-got-a-mail_WwiseProject.victo.wsettings" DateLow="1527346612" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\You-ve-got-a-mail_WwiseProject.wproj" DateLow="1527342865" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail\You-ve-got-a-mail_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail\You-ve-got-a-mail_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail\You-ve-got-a-mail_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1526663646" DateHigh="0"/>

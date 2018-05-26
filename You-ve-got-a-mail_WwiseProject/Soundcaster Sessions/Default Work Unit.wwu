@@ -53,7 +53,112 @@
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{FF77AACB-42F5-4329-8684-7C4BF9E086AA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_Tutorial_Start" ID="{D3EE972C-8709-4181-9C37-D4C56CA5454C}" WorkUnitID="{7ECA01F5-2986-495A-A206-C7ABE677C363}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_City_Start" ID="{448493B8-10DB-4532-AF41-8D94FA14A9F0}" WorkUnitID="{7ECA01F5-2986-495A-A206-C7ABE677C363}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
+							<Value>99.3717277486911</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="City" ID="{4D7CDE7C-4A66-45B0-9C1A-EAE1C7C80838}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="bike" ID="{DEA212E2-DAEC-445F-8222-3B8AF7FF532C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_MediumSpeed" ID="{89022D65-DA91-4A57-98B3-4BAFC317DD6C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_SlowSpeed" ID="{672A01EF-A9C4-4E28-9FF3-5BA809FF26F2}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_HighSpeed" ID="{F15C0608-BBCD-4C5B-BAA6-92E2951EAA0B}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM-Wind" ID="{63055929-47A2-469B-8103-A60B9BBA59D4}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="City" ID="{4D7CDE7C-4A66-45B0-9C1A-EAE1C7C80838}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="car" ID="{C46570D3-BB6B-4956-ABF9-B725C9F1A185}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_Car_Start" ID="{36956AB3-CCD7-4561-B0B7-F0A6A8AE64EE}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_Car_Stop" ID="{68338534-7DB0-433F-98BD-5A214E7C9F93}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

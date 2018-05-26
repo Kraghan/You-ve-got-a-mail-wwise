@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8E549F0F-2F94-41CC-AD9E-9735BB30166A}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{8E549F0F-2F94-41CC-AD9E-9735BB30166A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8E549F0F-2F94-41CC-AD9E-9735BB30166A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+				<GameParameter Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+				<GameParameter Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

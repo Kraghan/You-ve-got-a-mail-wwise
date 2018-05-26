@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7ECA01F5-2986-495A-A206-C7ABE677C363}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Music" ID="{7ECA01F5-2986-495A-A206-C7ABE677C363}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="YGM_Tutorial_Start" ID="{D3EE972C-8709-4181-9C37-D4C56CA5454C}">
+					<ChildrenList>
+						<Action Name="" ID="{63263755-379D-40B7-BFDD-A02127E4EBB4}" ShortID="916227004">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CityMusic" ID="{F72A119C-B7C9-43DC-B70C-E711D0154E41}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80879270-EF90-4A28-A88E-A475F4F114CF}" ShortID="380156368">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_TutorialMusic" ID="{EE5FA403-C99D-474A-94D3-DDB704973324}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_City_Start" ID="{448493B8-10DB-4532-AF41-8D94FA14A9F0}">
+					<ChildrenList>
+						<Action Name="" ID="{76B1F027-0564-48DA-85A4-23F6A3A563E3}" ShortID="392453982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_TutorialMusic" ID="{EE5FA403-C99D-474A-94D3-DDB704973324}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CA7A6F4B-5F16-4254-993F-45CDF34367EC}" ShortID="789381861">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_CityMusic" ID="{F72A119C-B7C9-43DC-B70C-E711D0154E41}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

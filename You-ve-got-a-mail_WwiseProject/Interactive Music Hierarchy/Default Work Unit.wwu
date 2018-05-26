@@ -1,6 +1,396 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}" SchemaVersion="85">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="YGM_MusicSystem" ID="{1B468846-CEC9-465F-BF02-93F7EB1B8F58}" ShortID="907570940">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="YGM_TutorialMusic" ID="{EE5FA403-C99D-474A-94D3-DDB704973324}" ShortID="630057891">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Bicycle Funk - Intro" ID="{8A0F937C-0BFE-4FCA-88EE-D7E95B63EAE6}" ShortID="305711737">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="23040"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bicycle Funk - Intro" ID="{A7D443A5-DC06-40E2-A85D-A2B3D8109003}" ShortID="156363872">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bicycle Funk - Intro" ID="{29EA8CEA-DFF5-424E-A43D-9BF3654E64E4}" ShortID="781785002">
+													<Language>SFX</Language>
+													<AudioFile>Bicycle Funk - Intro.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1FAA5D37-2696-4FBC-8C57-18EF2AD4A927}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A35B59BB-8F9F-4802-863F-881CA0A36F80}">
+													<ClipList>
+														<MusicClip Name="Bicycle Funk - Intro" ID="{6917A651-D57B-4A9E-990C-F26D35FE693D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23040"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bicycle Funk - Intro" ID="{29EA8CEA-DFF5-424E-A43D-9BF3654E64E4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F4CB61D1-C6C1-4B60-BEE1-D9CA9BA2DA68}"/>
+										<MusicCue Name="Exit Cue" ID="{BD2B3316-BB0B-4E91-97B2-D8AEBCDEDFED}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="23040"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E27A9D2A-8A47-4B59-9D66-734B38810C79}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{9110ECD6-306B-4D66-85FD-E997265CEABB}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2D087EB9-DDFD-43C8-9E83-C93B4AB7DB3A}" ShortID="990295719">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{0741D75D-BFD3-4345-9028-896B88A89A44}" ShortID="485409141">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Bicycle Funk - Intro" ID="{8A0F937C-0BFE-4FCA-88EE-D7E95B63EAE6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="YGM_CityMusic" ID="{F72A119C-B7C9-43DC-B70C-E711D0154E41}" ShortID="326187172">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Bicycle Funk - Disco Piano Part" ID="{914AC18B-C103-42ED-9C2A-6ADC39F6B993}" ShortID="821415008">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="59520"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bicycle Funk - Disco Piano Part" ID="{14ED3771-EE36-4B09-9BB7-E66949105A05}" ShortID="542554825">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bicycle Funk - Disco Piano Part" ID="{748353D6-890C-44EC-B66D-2290D8919DCA}" ShortID="49289890">
+													<Language>SFX</Language>
+													<AudioFile>Bicycle Funk - Disco Piano Part.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2EC3B063-F650-4C23-8E3E-D3D9A82681DA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2E7DB701-EA75-44F1-966A-B37C181B2927}">
+													<ClipList>
+														<MusicClip Name="Bicycle Funk - Disco Piano Part" ID="{A8EE1CD9-C471-4C91-BCF7-F3ED0EA0D916}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59520"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bicycle Funk - Disco Piano Part" ID="{748353D6-890C-44EC-B66D-2290D8919DCA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1CE16620-6A24-48BD-AA62-C78571EDA1ED}"/>
+										<MusicCue Name="Exit Cue" ID="{E760906B-38F4-4A1F-8DB3-0718F37D6AD1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="59520"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Bicycle Funk - Softer techno + Chiptune" ID="{2C8A064E-0714-4C47-8722-B5FC1EC85EF9}" ShortID="783511448">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="30720"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bicycle Funk - Softer techno + Chiptune" ID="{A0A77ABD-3448-4C22-BE57-D43D6628BB09}" ShortID="428998669">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bicycle Funk - Softer techno + Chiptune" ID="{CCFC9C29-AD47-45F2-B2CA-7872C5649FA3}" ShortID="992760054">
+													<Language>SFX</Language>
+													<AudioFile>Bicycle Funk - Softer techno + Chiptune.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C67D955E-56C7-4D76-B156-D50C55CFB096}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AA470E72-3162-4F4A-96BA-00CA4D2D2B24}">
+													<ClipList>
+														<MusicClip Name="Bicycle Funk - Softer techno + Chiptune" ID="{ED841AA6-67C9-45FF-83D0-712CBC82EED9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="30720"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bicycle Funk - Softer techno + Chiptune" ID="{CCFC9C29-AD47-45F2-B2CA-7872C5649FA3}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{28A31B93-0ABC-49B1-8CAB-E36D80A3A2E4}"/>
+										<MusicCue Name="Exit Cue" ID="{40C1BE0A-5045-43B7-AA8B-7EC66BC69799}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="30720"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Bicycle Funk - Techno Part" ID="{31B4C2B3-B08E-40BE-843E-BBA60B700844}" ShortID="603288559">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="23040"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bicycle Funk - Techno Part" ID="{67819CFC-9369-4F47-B60C-7A1112A061FB}" ShortID="744549397">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bicycle Funk - Techno Part" ID="{7C6C49EE-C94B-4812-A236-B443C77C4302}" ShortID="939783941">
+													<Language>SFX</Language>
+													<AudioFile>Bicycle Funk - Techno Part.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C4A3D41A-31F9-4C6F-86CB-E81053765270}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{27269CAB-81E2-4FA0-A86C-37AD842249AC}">
+													<ClipList>
+														<MusicClip Name="Bicycle Funk - Techno Part" ID="{78912C5F-F1B3-4629-9FF4-89AF3A6816A6}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="23040"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Bicycle Funk - Techno Part" ID="{7C6C49EE-C94B-4812-A236-B443C77C4302}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{22963025-CEFF-481C-B451-00416023B2C9}"/>
+										<MusicCue Name="Exit Cue" ID="{30BBA77B-C503-484A-BAC0-A2FE9EAC07E2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="23040"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CBA2CD05-BD49-40AC-B36B-6C53FECFE45D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{D6AE65A8-4D8D-4BB6-AF55-937C2BDCB52A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{3F49E3B6-A0DA-473E-B113-92D99EBBCF74}" ShortID="258896541">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{BDCCD7B3-F1AC-4F50-B279-7C6E6D3353D1}" ShortID="134022964">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0DD443B9-FEA9-42CB-9D15-40B487192301}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>75</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Bicycle Funk - Disco Piano Part" ID="{914AC18B-C103-42ED-9C2A-6ADC39F6B993}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C19E406D-2EB5-4867-96F7-F8B97CF68885}" ShortID="18561097">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Bicycle Funk - Softer techno + Chiptune" ID="{2C8A064E-0714-4C47-8722-B5FC1EC85EF9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EB401E6E-D8CB-4B77-9FFA-7FDF5F0920B7}" ShortID="1071578731">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Bicycle Funk - Techno Part" ID="{31B4C2B3-B08E-40BE-843E-BBA60B700844}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{70D72811-5BC7-4F31-BF5F-7419C545C1C5}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{53A6C66F-9A6A-4558-8599-740704E1D178}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Music_State" ID="{38E82BBB-B938-4B1E-A5D9-C57486B9E6C8}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="City" ID="{4D7CDE7C-4A66-45B0-9C1A-EAE1C7C80838}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="YGM_CityMusic" ID="{F72A119C-B7C9-43DC-B70C-E711D0154E41}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Tutorial" ID="{C002948B-DE05-43EA-A852-EEC5355CED78}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="YGM_TutorialMusic" ID="{EE5FA403-C99D-474A-94D3-DDB704973324}" WorkUnitID="{6247EB70-9A08-4274-A86D-36D0F5F3EDBA}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

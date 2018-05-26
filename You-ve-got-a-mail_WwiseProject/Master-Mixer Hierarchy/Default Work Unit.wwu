@@ -10,26 +10,92 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}">
+						<Bus Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}">
 							<PropertyList>
-								<Property Name="BusChannelConfig" Type="int32">
-									<ValueList>
-										<Value>761327882</Value>
-									</ValueList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1A19C06D-A9B5-4753-AE9B-A8D8E60C2C7B}" ShortID="436386436">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}" WorkUnitID="{8E549F0F-2F94-41CC-AD9E-9735BB30166A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4550E0BE-B834-466D-8274-62525B358CA0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
-									<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
-								</Reference>
-							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Ambisonic" ID="{9FA33ACE-4CC7-4ECF-BC15-603BA2529C23}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>516</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>761327882</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<ObjectRef Name="Medium_Room_AHP" ID="{084C1341-345B-44C4-88FE-89EA007AEDB3}" WorkUnitID="{B3C352EE-53F0-4C95-BAA9-B8ECC0034D25}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
-						<Bus Name="Ambisonic" ID="{9FA33ACE-4CC7-4ECF-BC15-603BA2529C23}">
+						<Bus Name="Music Audio Bus" ID="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}">
 							<PropertyList>
-								<Property Name="BusChannelConfig" Type="int32">
-									<ValueList>
-										<Value>516</Value>
-									</ValueList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{13C68D94-7F91-4C5C-862C-D466E4BC74EE}" ShortID="532020341">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}" WorkUnitID="{8E549F0F-2F94-41CC-AD9E-9735BB30166A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{31ECC6DD-394B-4414-89B6-9E634C8CFA46}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 						</Bus>
