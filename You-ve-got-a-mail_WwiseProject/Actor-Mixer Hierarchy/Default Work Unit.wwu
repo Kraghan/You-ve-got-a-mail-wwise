@@ -41,6 +41,9 @@
 								<Reference Name="Attenuation">
 									<Custom>
 										<Attenuation Name="Attenuation (Custom)" ID="{9105F06A-946E-476B-8F0D-A0C5AFE789D4}" ShortID="470169254">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -53,9 +56,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>50</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -130,6 +134,9 @@
 								<Reference Name="Attenuation">
 									<Custom>
 										<Attenuation Name="Attenuation (Custom)" ID="{CF8EDCA5-AFB2-4097-9627-632CC017BAD1}" ShortID="921658762">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -142,10 +149,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
+																	<XPos>50</XPos>
+																	<YPos>-38.79039</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -183,10 +191,30 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-pnj1Walk" ID="{6CAC53E0-A940-4D19-B061-963ED91F0DAF}" ShortID="992466882">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.313413255183026"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Environment\YGM-pnj1Walk.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{99E69E90-9698-4543-9741-BFF4E5537998}">
+									<ChildrenList>
+										<Path2D Name="YGM_Pnj1Walk_Path" ID="{76E67F12-601A-46D3-B506-0B4099B16148}">
+											<PointList>
+												<Point>
+													<XPos>0.63291</XPos>
+													<YPos>73.56688</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="YGM-pnj1Walk" ID="{6CAC53E0-A940-4D19-B061-963ED91F0DAF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1088,6 +1116,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-ObjectSpawn" ID="{E403D6A0-940F-4755-8B8D-DF4DC9249BCB}" ShortID="279637094">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="1.70758928571429E-02"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>YGM-ObjectSpawn.wav</AudioFile>
 								</AudioFileSource>
@@ -1184,6 +1215,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-impactJournal" ID="{3B0CFFC7-71D6-4D55-BDE6-8EAF5FC80A40}" ShortID="513139282">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.01656320861678"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.203300028344671"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>feedbacks\YGM-impactJournal.wav</AudioFile>
 								</AudioFileSource>
@@ -1273,6 +1308,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-impactLettre" ID="{BF3094B5-9709-4B13-B25B-F7C9F1BB3286}" ShortID="365022121">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="0.190015260568513"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>feedbacks\YGM-impactLettre.wav</AudioFile>
 								</AudioFileSource>
@@ -1388,6 +1426,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-impactColis" ID="{AE2778EA-6E7D-469E-9A58-48F040463489}" ShortID="916069169">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="4.37955539358601E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.392390468091999"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>feedbacks\YGM-impactColis.wav</AudioFile>
 								</AudioFileSource>
@@ -1458,6 +1500,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="chargementpoteau" ID="{0E21CB68-4639-4E67-8848-32C5FF260099}" ShortID="100640021">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.301339285714286"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.22377232142857"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>chargementpoteau.wav</AudioFile>
 								</AudioFileSource>
@@ -1611,6 +1657,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-MailboxOpen" ID="{260BB9AA-CCE2-4326-8DB0-344AA575F7BC}" ShortID="474466795">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="2.36422902494331E-02"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>YGM-MailboxOpen.wav</AudioFile>
 								</AudioFileSource>
@@ -1695,6 +1744,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-mailboxvalidation" ID="{83103556-C240-4DC0-859C-102660B80A98}" ShortID="746658345">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="0.554303328474247"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>YGM-mailboxvalidation.wav</AudioFile>
 								</AudioFileSource>
@@ -1779,6 +1831,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-GunShot" ID="{EB9F504E-C996-4FC1-93AD-C3DAA864A147}" ShortID="717951268">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.428571428571429"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>YGM-GunShot.wav</AudioFile>
 								</AudioFileSource>
@@ -2245,6 +2300,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="YGM-UiClick" ID="{C6953E16-1EB4-429C-B7DB-DBB74A710F51}" ShortID="338056719">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="2.49627976190476"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.71262400793651"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>YGM-UiClick.wav</AudioFile>
 								</AudioFileSource>
