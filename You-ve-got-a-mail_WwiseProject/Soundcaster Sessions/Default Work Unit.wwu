@@ -126,7 +126,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
-							<Value>100</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
