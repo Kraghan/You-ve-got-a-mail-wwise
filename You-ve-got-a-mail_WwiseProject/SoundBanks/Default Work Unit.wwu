@@ -18,7 +18,7 @@
 						<ObjectRef Name="YGM_MailboxOpeningClosing" ID="{833AE20D-1563-44D0-A80D-25CB5694D6C4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_City_Start" ID="{448493B8-10DB-4532-AF41-8D94FA14A9F0}" WorkUnitID="{7ECA01F5-2986-495A-A206-C7ABE677C363}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Car_Start" ID="{36956AB3-CCD7-4561-B0B7-F0A6A8AE64EE}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_PoleLoading_Stop" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_PackageImpact" ID="{03657952-C863-48B5-B20B-7BE77FEF6EF4}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxMovement_Stop" ID="{20796F78-FE40-4990-918E-13C5851CD501}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Pnj1Talking" ID="{6F7AEAF3-29F2-4A0B-A98F-E15F07BFE45F}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
@@ -30,6 +30,7 @@
 						<ObjectRef Name="YGM_PoleLoading_Start" ID="{E901FA9C-ED87-4D40-8399-48A064ED12A1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_MailboxMovement_Start" ID="{9AE20A99-8581-4DC1-BCC9-8B68019B6744}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_NewspaperImpact" ID="{A6B2B1E6-5505-4F21-A7BD-13196C2305D1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YGM_Crash" ID="{2AAFB668-6EC5-4F5F-B3DE-8D35E810A7D2}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YGM_Pnj1Hit" ID="{8030BDA1-9A69-4FEB-B51B-43DC3CF18309}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

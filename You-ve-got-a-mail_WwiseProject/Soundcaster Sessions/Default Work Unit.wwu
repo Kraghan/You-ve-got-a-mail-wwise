@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="test" ID="{77F02074-FFCD-4950-8645-60886E49F67C}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<ObjectRef Name="YGM_PoleLoading_Stop" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
@@ -126,7 +126,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -159,7 +159,39 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="City" ID="{4D7CDE7C-4A66-45B0-9C1A-EAE1C7C80838}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="pole" ID="{BBBA3BBF-CBF0-463D-A330-8E66C61BFB1D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="YGM_PoleLoading_Start" ID="{E901FA9C-ED87-4D40-8399-48A064ED12A1}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YGM_PoleLoading_Stop" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}" WorkUnitID="{84AC6855-E88A-41C5-A423-FAB395E7C407}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="YGM_MusicVolume" ID="{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_VfxVolume" ID="{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="YGM_BikeSpeed" ID="{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="City" ID="{4D7CDE7C-4A66-45B0-9C1A-EAE1C7C80838}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

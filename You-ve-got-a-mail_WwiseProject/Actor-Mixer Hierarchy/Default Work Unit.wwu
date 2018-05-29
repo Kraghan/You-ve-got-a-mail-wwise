@@ -124,11 +124,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -537,245 +532,6 @@
 								<ActiveSource Name="YGM-Propeller" ID="{830478AD-97FC-461B-A4B9-C28D89DE03A8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM_CarMoving" ID="{22D2D7F2-4D6F-4E33-AEF5-148085DB853E}" ShortID="25362953">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{F9A03A93-8CDB-4720-AE05-F305F9DB71B9}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{A04E7A8A-CCF2-4175-BBAB-406EFE94711D}" ShortID="262633463">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="75"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{B8FF6CF7-C323-4A6F-BF3B-BAF1AFEFBACF}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>75</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="YGM-CarMoving" ID="{0D048811-5D05-45D8-AE87-90E6D1308224}" ShortID="780678876">
-									<Language>SFX</Language>
-									<AudioFile>YGM-CarMoving.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="YGM-CarMoving" ID="{0D048811-5D05-45D8-AE87-90E6D1308224}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="YGM_CarStart" ID="{C64C9246-2023-49D4-8F01-5C6CED0449BA}" ShortID="142761928">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{1AB97FB9-ED0E-45C3-ABFF-A65F6C05E05B}" ShortID="47547333">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="75"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{D86A905B-EF8A-48FC-957B-C3D012E4F376}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>75</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="YGM-CarStart" ID="{EBD99CF3-240D-4EC7-A25E-C21F4A9170A0}" ShortID="285842420">
-									<Language>SFX</Language>
-									<AudioFile>YGM-CarStart.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="YGM-CarStart" ID="{EBD99CF3-240D-4EC7-A25E-C21F4A9170A0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="YGM_CarStop" ID="{EFEAC804-C013-4069-AE68-A4E0D9D447CD}" ShortID="973549175">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{0B618A01-1B67-4573-A749-C76815A79F14}" ShortID="204893386">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="75"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{6D7645D5-BEAA-4740-9C3A-8FA28C87DE9D}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log3</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>75</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="YGM-CarStop" ID="{E8429EE8-86B0-463A-8810-CF5F9762D343}" ShortID="346682142">
-									<Language>SFX</Language>
-									<AudioFile>YGM-CarStop.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="YGM-CarStop" ID="{E8429EE8-86B0-463A-8810-CF5F9762D343}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="YGM_Pnj1Hit" ID="{23433880-C3E0-429D-B11E-DB5DA28BFC60}" ShortID="217461764">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
@@ -1062,6 +818,361 @@
 								<ActiveSource Name="pnj2hit" ID="{FBF8CADC-6D65-4EC2-8131-E73948C520D5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="YGM-CarMoving" ID="{19825EC2-ABDA-4CEF-AB8A-4576D6414BD3}" ShortID="659774061">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{C0C19942-7E6B-413C-AA4B-27B832CE76B3}" ShortID="359933376">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="75"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{0F506202-93F2-4C5C-AF5F-5236AE802B62}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>75</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarMoving" ID="{F1DCAB3F-5EFE-4A8C-96FC-F82523A79AFD}" ShortID="598416707">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarMoving.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarMoving" ID="{F1DCAB3F-5EFE-4A8C-96FC-F82523A79AFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-CarStart" ID="{1A65D1E2-C75E-42DE-9DFC-DC0E7F491EC5}" ShortID="386942976">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{F57AC8BA-F24C-486F-A8EF-E025E57AA5F7}" ShortID="508277541">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="75"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{309CF642-C4FF-4A28-825B-943FF57FB53C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>75</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarStart" ID="{CEA967BD-B198-4B57-9446-121F53A48D9A}" ShortID="959252598">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarStart.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarStart" ID="{CEA967BD-B198-4B57-9446-121F53A48D9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM-CarStop" ID="{EA287A2A-E53F-4B3B-8CC6-75B29B142F41}" ShortID="483082035">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{49F97EB1-2337-4C8C-B34E-EAA0EBF744BC}" ShortID="784030092">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="75"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{C6EF2476-2850-4850-97F2-540AE32D6AD7}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log2</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>75</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="YGM-CarStop" ID="{C400ACC7-0E32-4627-8A47-2197BDFF3ACA}" ShortID="436782405">
+									<Language>SFX</Language>
+									<AudioFile>YGM-CarStop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="YGM-CarStop" ID="{C400ACC7-0E32-4627-8A47-2197BDFF3ACA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="YGM_Pnj1Death" ID="{8E4CF7D7-71A3-4244-83CF-DF6413225D2F}" ShortID="263738897">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="pnj1death_hit1" ID="{E48802EC-97DE-4BE2-BCA4-EE736FADD071}" ShortID="1069178273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" ShortID="663984069">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_hit1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pnj1death_hit3" ID="{4F1700B3-1C69-4B4D-BABD-C1EA15125837}" ShortID="664407646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" ShortID="434006808">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_hit3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pnj1death_hit5" ID="{6076BF5B-D200-4DA5-9520-0793A7E13C0E}" ShortID="470097633">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" ShortID="611696969">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_hit5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pnj1death_hit4" ID="{DF3E66B9-E8CA-4EB2-B144-8074B342E69D}" ShortID="937944356">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" ShortID="1070201356">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_hit4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pnj1death_hit2" ID="{3E313264-DCDD-43C1-8412-39E9372EDA12}" ShortID="375963263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" ShortID="700297998">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_hit2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pnj1death_background" ID="{C855F196-997D-461D-9B66-FE4FDB47562D}" ShortID="187332811">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pnj1death_background" ID="{82F209DE-BB7E-4800-9E59-94D2AFA1337E}" ShortID="851940693">
+											<Language>SFX</Language>
+											<AudioFile>pnj1death_background.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pnj1death_background" ID="{82F209DE-BB7E-4800-9E59-94D2AFA1337E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Signs" ID="{38B8D909-A512-4998-909B-410FB3F1FEF0}" ShortID="990266841">
@@ -1485,149 +1596,6 @@
 								<ActiveSource Name="YGM-impactColis" ID="{AE2778EA-6E7D-469E-9A58-48F040463489}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" ShortID="99194940">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{B0E49428-0628-4E58-9023-2D70C81EC3A5}" ShortID="449977577">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{5E2D0BBA-A8FA-4C38-B738-96DAF567BD41}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="chargementpoteau" ID="{0E21CB68-4639-4E67-8848-32C5FF260099}" ShortID="100640021">
-									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="0.301339285714286"/>
-										<Property Name="TrimEnd" Type="Real64" Value="7.22377232142857"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>chargementpoteau.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="chargementpoteau" ID="{0E21CB68-4639-4E67-8848-32C5FF260099}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="YGM_PoleEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" ShortID="474441809">
-							<PropertyList>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{A980CB4E-9EC2-465D-9FFD-D0C27B669CB3}" ShortID="61700118">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{AA319A8E-4FE7-45AB-96CD-834B4A935962}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="finpoteau" ID="{BBEA657B-BEA1-4A55-9A63-653C8A46FBC7}" ShortID="1058828079">
-									<Language>SFX</Language>
-									<AudioFile>finpoteau.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="finpoteau" ID="{BBEA657B-BEA1-4A55-9A63-653C8A46FBC7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="YGM_MailboxOpeningClosing" ID="{D2978A37-3D55-43B4-8D04-C8BF1CC453F9}" ShortID="442650919">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -1987,6 +1955,47 @@
 								<ActiveSource Name="YGM-MailboxInhale" ID="{3A77D5ED-4571-41A9-B17C-27B77EC4C385}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="YGM_PoleLoading_Start" ID="{4E162721-FA18-4E7F-BF46-3DAEE1D50701}" ShortID="314187807">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="chargementpoteau2" ID="{7447FADC-D82F-4EAA-B479-02743B92311C}" ShortID="855596250">
+									<Language>SFX</Language>
+									<AudioFile>chargementpoteau2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="chargementpoteau2" ID="{7447FADC-D82F-4EAA-B479-02743B92311C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM_PoleLoading_Stop" ID="{AA68D127-731F-4F4E-B763-43679D92CE2C}" ShortID="448187523">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="finpoteau" ID="{78C708BC-E8AD-4708-8316-7D8EBA79246C}" ShortID="914404166">
+									<Language>SFX</Language>
+									<AudioFile>finpoteau.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1058828079"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="finpoteau" ID="{78C708BC-E8AD-4708-8316-7D8EBA79246C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="bike" ID="{F5D98B8F-CCFC-4421-919C-5BF462DFF369}" ShortID="523259787">
@@ -2098,8 +2107,13 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>6.18398</YPos>
+														<YPos>-200</YPos>
 														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>6</YPos>
+														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>100</XPos>
@@ -2198,13 +2212,25 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-12.54085</YPos>
+														<YPos>-200</YPos>
 														<Flags>5</Flags>
-														<SegmentShape>Log3</SegmentShape>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>33.56545</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>65</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>100</XPos>
-														<YPos>-11.88085</YPos>
+														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -2283,6 +2309,40 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="YGM-Wind" ID="{80360AE3-F70C-4314-BD4D-27C32BFB3AFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="YGM_Crash" ID="{B719C14B-9911-4BDD-82AC-4AF9DBB0A877}" ShortID="483865683">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{77045E92-F659-4AF7-B660-D04B0E8613C1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vélocrash" ID="{26BED2EB-EA06-4BA7-9B51-0513B96769A1}" ShortID="818139825">
+									<Language>SFX</Language>
+									<AudioFile>vélocrash.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="vélocrash" ID="{26BED2EB-EA06-4BA7-9B51-0513B96769A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -223,31 +223,33 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_PoleLoading_Start" ID="{4E162721-FA18-4E7F-BF46-3DAEE1D50701}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="YGM_PoleEnd" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}">
+				<Event Name="YGM_PoleLoading_Stop" ID="{491594E2-0243-47D4-850A-FF3AECE1B299}">
 					<ChildrenList>
 						<Action Name="" ID="{3090CAB8-BE70-4D5C-B86C-46DE179AB10D}" ShortID="467257192">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_PoleLoading" ID="{CD855532-715F-43D6-B370-8B4798EE0CC3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_PoleLoading_Start" ID="{4E162721-FA18-4E7F-BF46-3DAEE1D50701}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{6180E338-E358-4726-A99D-0B1A721E4AC0}" ShortID="852138096">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_PoleEnd" ID="{59379C0F-BA79-439C-9188-2FB19C71D97A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM_PoleLoading_Stop" ID="{AA68D127-731F-4F4E-B763-43679D92CE2C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -289,7 +291,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_CarStart" ID="{C64C9246-2023-49D4-8F01-5C6CED0449BA}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM-CarStart" ID="{1A65D1E2-C75E-42DE-9DFC-DC0E7F491EC5}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -301,7 +303,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_CarMoving" ID="{22D2D7F2-4D6F-4E33-AEF5-148085DB853E}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM-CarMoving" ID="{19825EC2-ABDA-4CEF-AB8A-4576D6414BD3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -315,7 +317,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_CarMoving" ID="{22D2D7F2-4D6F-4E33-AEF5-148085DB853E}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM-CarMoving" ID="{19825EC2-ABDA-4CEF-AB8A-4576D6414BD3}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -326,7 +328,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="YGM_CarStop" ID="{EFEAC804-C013-4069-AE68-A4E0D9D447CD}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+									<ObjectRef Name="YGM-CarStop" ID="{EA287A2A-E53F-4B3B-8CC6-75B29B142F41}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -369,6 +371,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="YGM_Pnj1Talking" ID="{9461463B-B6C6-4112-894B-AD476E185B47}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_Crash" ID="{2AAFB668-6EC5-4F5F-B3DE-8D35E810A7D2}">
+					<ChildrenList>
+						<Action Name="" ID="{F5578A0A-CF7C-4B4E-9C39-CA395F2F1AAE}" ShortID="347706097">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_Crash" ID="{B719C14B-9911-4BDD-82AC-4AF9DBB0A877}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
