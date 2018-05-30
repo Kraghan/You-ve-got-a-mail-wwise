@@ -1057,108 +1057,249 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="pnj1death_hit1" ID="{E48802EC-97DE-4BE2-BCA4-EE736FADD071}" ShortID="1069178273">
+								<RandomSequenceContainer Name="New Random Container" ID="{8FC9DD0C-CA04-4423-B669-76B19736420A}" ShortID="457300216">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{54B0B788-8FCF-426C-AE67-7DEAC9E935F5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{2AC03FAA-2E12-4A08-9016-2D724F1BA2CE}" ShortID="307046472">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="75"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{DDC2F7EE-726D-4CC5-AD56-926C666FB621}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>75</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+											<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" ShortID="663984069">
-											<Language>SFX</Language>
-											<AudioFile>pnj1death_hit1.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="pnj1death_hit4" ID="{DF3E66B9-E8CA-4EB2-B144-8074B342E69D}" ShortID="937944356">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" ShortID="1070201356">
+													<Language>SFX</Language>
+													<AudioFile>pnj1death_hit4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pnj1death_hit2" ID="{3E313264-DCDD-43C1-8412-39E9372EDA12}" ShortID="375963263">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" ShortID="700297998">
+													<Language>SFX</Language>
+													<AudioFile>pnj1death_hit2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pnj1death_hit5" ID="{6076BF5B-D200-4DA5-9520-0793A7E13C0E}" ShortID="470097633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" ShortID="611696969">
+													<Language>SFX</Language>
+													<AudioFile>pnj1death_hit5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pnj1death_hit1" ID="{E48802EC-97DE-4BE2-BCA4-EE736FADD071}" ShortID="1069178273">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" ShortID="663984069">
+													<Language>SFX</Language>
+													<AudioFile>pnj1death_hit1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pnj1death_hit3" ID="{4F1700B3-1C69-4B4D-BABD-C1EA15125837}" ShortID="664407646">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" ShortID="434006808">
+													<Language>SFX</Language>
+													<AudioFile>pnj1death_hit3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pnj1death_hit1" ID="{617B7718-02C5-4C3A-820D-FED954547E76}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pnj1death_hit3" ID="{4F1700B3-1C69-4B4D-BABD-C1EA15125837}" ShortID="664407646">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" ShortID="434006808">
-											<Language>SFX</Language>
-											<AudioFile>pnj1death_hit3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pnj1death_hit3" ID="{C6C959CC-9BD4-4C7F-A764-ED625CA05954}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pnj1death_hit5" ID="{6076BF5B-D200-4DA5-9520-0793A7E13C0E}" ShortID="470097633">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" ShortID="611696969">
-											<Language>SFX</Language>
-											<AudioFile>pnj1death_hit5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pnj1death_hit5" ID="{F8A4ECEA-E6C8-4A39-87CB-C68C72D710D5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pnj1death_hit4" ID="{DF3E66B9-E8CA-4EB2-B144-8074B342E69D}" ShortID="937944356">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" ShortID="1070201356">
-											<Language>SFX</Language>
-											<AudioFile>pnj1death_hit4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pnj1death_hit4" ID="{5D7E9562-4769-4E5A-B761-1105C6CB3BB9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="pnj1death_hit2" ID="{3E313264-DCDD-43C1-8412-39E9372EDA12}" ShortID="375963263">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" ShortID="700297998">
-											<Language>SFX</Language>
-											<AudioFile>pnj1death_hit2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="pnj1death_hit2" ID="{7A9D05C7-A57A-436A-AE7A-9EC225689B5B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 								<Sound Name="pnj1death_background" ID="{C855F196-997D-461D-9B66-FE4FDB47562D}" ShortID="187332811">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{9E3A75F4-4B3E-41CB-A13D-0C5B955B1190}" ShortID="853140446">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="75"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{06ACF95F-1CBF-449D-8378-103AF0A7C48A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log2</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>75</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{841A38D7-7220-4CB3-A156-9B4CCDC83AD4}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="VFX Audio Bus" ID="{EFB2C541-E878-4197-A040-68318244E82C}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
+											<ObjectRef Name="Auro-3D" ID="{5EE6B9BD-9CB4-4E45-BDE1-1FECC9881BD7}" WorkUnitID="{54014377-C27A-49E1-8654-0FA1640E450A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

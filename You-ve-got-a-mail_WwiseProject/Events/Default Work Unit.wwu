@@ -390,6 +390,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="YGM_Pnj1Death" ID="{3941D044-FBD4-4071-B47B-637D8F72C284}">
+					<ChildrenList>
+						<Action Name="" ID="{221E528E-963C-432A-BF42-84E5F81CA92F}" ShortID="219042535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pnj1death_background" ID="{C855F196-997D-461D-9B66-FE4FDB47562D}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{944D3657-E469-4FD5-BA40-9F4588D288C9}" ShortID="550385648">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Random Container" ID="{8FC9DD0C-CA04-4423-B669-76B19736420A}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
