@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	211756509	YGM_MailboxMovement_Start			\Default Work Unit\YGM_MailboxMovement_Start	
 	818962592	YGM_Car_Start			\Default Work Unit\YGM_Car_Start	
 	862647619	YGM_Bike_Start			\Default Work Unit\YGM_Bike_Start	
+	1001739416	YGM_TrashHit			\Default Work Unit\YGM_TrashHit	
 	1055769398	YGM_Propeller			\Default Work Unit\YGM_Propeller	
 	1318494082	YGM_Tutorial_Start			\Music\YGM_Tutorial_Start	
 	1366380992	YGM_Pnj2Walk			\Default Work Unit\YGM_Pnj2Walk	
@@ -64,4 +65,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	992760054	Bicycle Funk - Softer techno + Chiptune	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\Bicycle Funk - Softer techno + Chiptune_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\YGM_MusicSystem\YGM_CityMusic\Bicycle Funk - Softer techno + Chiptune\Bicycle Funk - Softer techno + Chiptune		5419072
 	1037591064	YGM_Pnj1Talking	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\pnj1Talking_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj1Talking		572794
 	1058828079	YGM_PoleLoading_Stop	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\finpoteau_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Feedbacks\YGM_PoleLoading_Stop		178228
+	1070201356	pnj1death_hit4	C:\Users\victo\Documents\ENJMIN\YouveGotMail\You-ve-got-a-mail-wwise\You-ve-got-a-mail_WwiseProject\.cache\Mac\SFX\pnj1death_hit4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environnement\YGM_Pnj1Death\New Random Container\pnj1death_hit4		45928
 

@@ -414,6 +414,64 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="YGM_Bike_Start" ID="{96086B2A-01C3-4DAD-A0FC-B33A5CB74809}">
+					<ChildrenList>
+						<Action Name="" ID="{BFB141A3-BB23-451C-BDDB-17819FF3A929}" ShortID="402920111">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_HighSpeed" ID="{F15C0608-BBCD-4C5B-BAA6-92E2951EAA0B}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C2D4A13-E4F0-4188-A6A8-4AE5E19F52FC}" ShortID="368548912">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_MediumSpeed" ID="{89022D65-DA91-4A57-98B3-4BAFC317DD6C}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E1C2663-3A0C-4E3F-A00D-EB15DE3DB331}" ShortID="1005669729">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM_SlowSpeed" ID="{672A01EF-A9C4-4E28-9FF3-5BA809FF26F2}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2889F2B5-8BC7-4E11-90CA-D2084B6C2FEE}" ShortID="617183830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="YGM-Wind" ID="{63055929-47A2-469B-8103-A60B9BBA59D4}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="YGM_TrashHit" ID="{33F1AB3A-F3B9-46AC-9D90-5018252F32E9}">
+					<ChildrenList>
+						<Action Name="" ID="{03B451F5-2B5F-48F5-A3CA-367A03159F01}" ShortID="965726668">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pnj1death_hit4" ID="{DF3E66B9-E8CA-4EB2-B144-8074B342E69D}" WorkUnitID="{1F6B767F-B01F-4533-94C8-0E92B2FB5EAE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
