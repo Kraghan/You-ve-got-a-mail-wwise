@@ -85,8 +85,8 @@
 				<Property Name="PluginUserAcknowledge\iZotope Trash Dynamics Mono" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{E40AC832-A5C9-4398-B463-E19D6CD2BE82}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{B1BF97B3-FD29-47ED-A925-9A3F6EF893F7}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{EFF9E78E-7102-44A6-9D9C-83F61757EB99}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
@@ -112,7 +112,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{53BA5F57-D71E-47BE-BC43-1B77F5ECA3F0}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{7D6BF0D9-F7DF-4E24-B2CD-788097B16574}" Type="Real64" Value="100"/>
-				<Property Name="RTPC\GameParameterSimValue\{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{FFE1AAC4-76A4-4880-A3C9-3AB5AE5B15B7}" Type="Real64" Value="0"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="11IL8ty1TUq8ziUtB4rz/w=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
@@ -145,7 +145,7 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{BBBA3BBF-CBF0-463D-A330-8E66C61BFB1D}"/>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{DEA212E2-DAEC-445F-8222-3B8AF7FF532C}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
